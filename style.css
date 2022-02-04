@@ -1,0 +1,89 @@
+body {
+    margin: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+h2{
+    color: #999;
+    
+}
+
+p {
+    margin-top: 100px;
+    color: white;
+}
+
+.sliderp {
+    margin: 0;
+}
+
+
+#form {
+    padding: 10%;
+    display: block;
+}
+
+button {
+    width: 20%;
+    color: white;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #444;
+}
+
+
+.slider {
+    width: 80%;
+}
+
+.text {
+    margin-bottom: 5%;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.box {
+    margin: 5%;
+    padding: 10px 10% 10px 10%;
+    border: 1px solid #888;
+}
+
+
+.genre {
+
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+    text-decoration: none;
+}
+
+.select {
+    width: 64px;
+    height: fit-content;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #444;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #888;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.textMain {
+    margin: 0;
+}
+
+

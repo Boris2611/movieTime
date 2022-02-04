@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="form" id="form">
+        <h1 class="textMain">Find Me a Movie </h1>
+
+        <div class="genre box" id="genre">
+            <h1 class="text">Genre:</h1>
+
+            <div id="Crime" onclick=getValue(this.id) class="select">
+                Crime
+            </div>
+
+            <div id="Drama" onclick=getValue(this.id) class="select">
+                Drama
+            </div>
+
+            <div id="Romance" onclick=getValue(this.id) class="select">
+                Romance
+            </div>
+
+            <div id="War" onclick=getValue(this.id) class="select">
+                War
+            </div>
+
+            <div id="Mystery" onclick=getValue(this.id) class="select">
+                Mystery
+            </div>
+
+            <div id="Thriller" onclick=getValue(this.id) class="select">
+                Thriller
+            </div>
+
+            <div id="Adventure" onclick=getValue(this.id) class="select">
+                Adventure
+            </div>
+
+            <div id="Biography" onclick=getValue(this.id) class="select">
+                Biography
+            </div>
+
+            <div id="Comedy" onclick=getValue(this.id) class="select">
+                Comedy
+            </div>
+
+            <div id="Musical" onclick=getValue(this.id) class="select">
+                Musical
+            </div>
+
+            <div id="Sci-Fi" onclick=getValue(this.id) class="select">
+                Sci-Fi
+            </div>
+
+            <div id="Fantasy" onclick=getValue(this.id) class="select">
+                Fantasy
+            </div>
+
+            <div id="Horror" onclick=getValue(this.id) class="select">
+                Horror
+            </div>
+
+            <div id="History" onclick=getValue(this.id) class="select">
+                History
+            </div>
+
+            <div id="All" onclick=getValue(this.id) class="select">
+                All
+            </div>
+        </div>
+
+
+        <div class="year box">
+            <h1 class="text">Minimum year:</h1>
+        <div class="slidecontainer">
+            <input type="range" min="1920" max="2010" value="50" class="slider" id="myRange">
+            <p class="sliderp">Year: <span id="demo"></span></p>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <button id="next" onclick="show()">FIND</button>
+
+    <h1 id="movieName"></h1>
+    <h2 id="category"></h2>
+    <h2 id="movieDate"></h2>
+    <h2 id="time"></h2>
+    <h2 id="rating"></h2>
+    <h2 id="metascore"></h2>
+    <h2 id="certificate"></h2>
+    <h2 id="description"></h2>
+    <h2 id="actors"></h2>
+    <h2 id="votes"></h2>
+
+
+
+    <p id="moviesFound"></p>
+
+
+
+
+
+
+
+    <script src='main.js'></script>
+</body>
+</html>
